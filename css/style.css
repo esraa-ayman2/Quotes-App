@@ -1,0 +1,27 @@
+section {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.668),
+      rgba(121, 65, 65, 0.636)
+    ),
+    url(../images/1354011.png);
+  background-position: center;
+  background-size: cover;
+}
+.quote {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  text-align: center;
+}
+.inner {
+  background: #0000003d;
+  border-radius: 28px;
+  overflow-y: auto;
+  box-shadow: 0 8px 15px rgb(48, 35, 32);
+  text-shadow: 0 8px 10px rgb(7, 3, 2);
+}
+.min-vh-60 {
+  min-height: 80vh;
+}
