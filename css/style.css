@@ -19,8 +19,13 @@ section {
   background: #0000003d;
   border-radius: 28px;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   box-shadow: 0 8px 15px rgb(48, 35, 32);
   text-shadow: 0 8px 10px rgb(7, 3, 2);
+}
+.inner::-webkit-scrollbar {
+  display: none;
 }
 .min-vh-60 {
   min-height: 80vh;
